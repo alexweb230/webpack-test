@@ -1,3 +1,5 @@
+import * as $ from 'jquery';
+
 function analitics() {
     let counter = 0;
     const clicked = () => counter++;
@@ -21,7 +23,7 @@ function analitics() {
 
 }
 
-
+$('body').css('background', 'red');
 window.analitic = analitics();
 
 

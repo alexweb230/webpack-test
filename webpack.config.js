@@ -28,6 +28,12 @@ module.exports = {
         }
     },
 
+    optimization: {
+        splitChunks: {
+            chunks: 'all'
+        }
+    },
+
     plugins: [
        new htmlWebpackPlugin({
            template: './index.html'
