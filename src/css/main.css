@@ -1,0 +1,22 @@
+@import "fonts.css";
+@import "~normalize.css";
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+.conteiner{
+    background: silver;
+    border: 1px solid;
+}
+
+h1{
+    color:red;
+}
+
+.logo{
+    background: url("../assets/illustrator.png");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
